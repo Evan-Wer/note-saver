@@ -1,0 +1,23 @@
+{
+  "name": "note-saver",
+  "version": "1.0.0",
+  "description": "A note taking assistant designed to simplify organization",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evan-Wer/note-saver.git"
+  },
+  "keywords": [
+    "Note"
+  ],
+  "author": "Evan-Wer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evan-Wer/note-saver/issues"
+  },
+  "homepage": "https://github.com/Evan-Wer/note-saver#readme"
+}
