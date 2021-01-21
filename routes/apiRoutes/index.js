@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const notes = require('../../db/db.json');
-const { createNewNote, checkNote, setNoteID, deleteNote } = require('../../lib/notes');
+const { createNewNote, checkNote, setID, deleteNote } = require('../../lib/notes');
 
 
 router.get('/notes', (req, res) => {
@@ -11,7 +11,7 @@ router.get('/notes', (req, res) => {
 
 router.post('/notes', (req, res) => {
     const noteData = notes
-    req.body.id = setNoteID()
+    req.body.id = setID()
     const note = req.body
 
     if (checkNote(note)) {
