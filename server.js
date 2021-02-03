@@ -1,5 +1,4 @@
-// Requirements
-const express = require("express");
+const express = require('express');
 const uniqid = require('uniqid');
 const apiRoutes = require("./routes/apiRoutes");
 const htmlRoutes = require("./routes/htmlRoutes");
